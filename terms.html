@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>瞬间 · 用户协议</title>
+<style>
+  :root{
+    --accent:#2F91F2;
+    --gold:#C9A227;
+    --bg:#F6F7F9;
+    --card:#FFFFFF;
+    --fg:#1C1F26;
+    --dim:#5B6472;
+    --line:#E5E8ED;
+    --warn-bg:#FFF8E6;
+    --warn-line:#E7CB63;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:transparent;
+      --card:#141A24;
+      --fg:#EAF1FB;
+      --dim:#9AA6B8;
+      --line:#242C3A;
+      --warn-bg:#1E1A0C;
+    }
+    html,body{background:transparent;}
+  }
+  *{box-sizing:border-box;-webkit-font-smoothing:antialiased;}
+  html,body{margin:0;}
+  body{
+    background:var(--bg);color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","PingFang SC","Helvetica Neue",Arial,sans-serif;
+    line-height:1.75;font-size:15px;
+    padding:0 16px 80px;
+  }
+  .wrap{max-width:780px;margin:0 auto;}
+  header.doc{
+    max-width:780px;margin:0 auto;padding:44px 0 20px;
+    border-bottom:1px solid var(--line);margin-bottom:26px;
+  }
+  .brand{display:flex;align-items:center;gap:10px;margin-bottom:14px;}
+  .brand .logo{width:34px;height:34px;border-radius:10px;
+    background:linear-gradient(150deg,#29354A,#0B1423);
+    border:1px solid var(--line);display:flex;align-items:center;justify-content:center;}
+  .brand .logo svg{width:18px;height:18px;stroke:var(--gold);}
+  .brand .name{font-size:15px;font-weight:700;letter-spacing:.5px;}
+  h1{font-size:26px;font-weight:800;margin:0 0 10px;letter-spacing:.3px;}
+  .meta{font-size:12.5px;color:var(--dim);line-height:1.9;}
+  .meta b{color:var(--fg);font-weight:600;}
+  h2{font-size:18px;font-weight:800;margin:34px 0 10px;letter-spacing:.2px;padding-top:6px;}
+  h2 .n{color:var(--accent);margin-right:8px;font-variant-numeric:tabular-nums;}
+  h3{font-size:15px;font-weight:700;margin:20px 0 6px;}
+  p{margin:10px 0;}
+  ul{margin:8px 0 8px;padding-left:20px;}
+  li{margin:6px 0;}
+  a{color:var(--accent);text-decoration:none;}
+  .lead{color:var(--dim);}
+  .hl{color:var(--accent);font-weight:700;}
+  .gold{color:var(--gold);font-weight:700;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:4px 20px;margin:14px 0;}
+  table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14px;}
+  th,td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:top;}
+  th{font-weight:700;color:var(--dim);font-size:12.5px;letter-spacing:.4px;}
+  tr:last-child td{border-bottom:none;}
+  .callout{background:var(--warn-bg);border:1px solid var(--warn-line);border-radius:14px;padding:14px 18px;margin:18px 0;font-size:14px;}
+  .callout .t{font-weight:800;margin-bottom:4px;}
+  .note{font-size:12.5px;color:var(--dim);border-top:1px solid var(--line);margin-top:40px;padding-top:16px;}
+  footer{max-width:780px;margin:0 auto;color:var(--dim);font-size:12.5px;padding-top:8px;}
+  @media (max-width:600px){ h1{font-size:22px;} body{font-size:14.5px;} }
+</style>
+</head>
+<body>
+
+<header class="doc">
+  <div class="brand">
+    <div class="logo"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/><path d="M12 7v5l3 2"/></svg></div>
+    <div class="name">瞬间</div>
+  </div>
+  <h1>用户协议</h1>
+  <div class="meta">
+    生效日期：<b>2026 年 9 月 25 日</b><br>
+    运营者：<b>拾见工作室</b>（以下简称「我们」）<br>
+    联系方式：<b>codersd@163.com</b>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <p class="lead">本协议是你与「瞬间」iOS 应用（以下简称「本应用」）运营者之间就使用本应用所达成的协议。请在使用前仔细阅读并充分理解；你下载、安装或使用本应用，即视为你已阅读并同意本协议。</p>
+
+  <h2><span class="n">一</span>协议的范围与接受</h2>
+  <ul>
+    <li>本协议内容包括协议正文及所有我们已发布或将来可能发布的规则、说明与政策（包括《隐私政策》）。</li>
+    <li>若你不同意本协议任何内容，请不要使用本应用。</li>
+    <li>若你为未成年人，请在监护人陪同下阅读并决定是否使用。</li>
+  </ul>
+
+  <h2><span class="n">二</span>服务说明</h2>
+  <p>本应用是一款<strong>在设备本地运行</strong>的相册回顾与清理工具，主要功能包括：</p>
+  <ul>
+    <li>以卡片滑动方式浏览、筛选照片与视频；</li>
+    <li>通过手势将素材加入待删除，并在确认后移入系统「最近删除」；</li>
+    <li>「快速清理 / 智能清理」：识别相似与重复、截图、模糊照片、大视频、大照片、敏感照片等，辅助你批量清理；</li>
+    <li>「回到那天」「同地点」等回顾入口；</li>
+    <li>使用统计等辅助功能。</li>
+  </ul>
+  <div class="callout">
+    <div class="t">本地处理</div>
+    本应用的浏览、识别与清理均在你的设备本地完成，<b>不会将你的照片、视频上传到我们的服务器</b>。我们<strong>不提供</strong>你的相册内容的云端备份。
+  </div>
+
+  <h2><span class="n">三</span>许可与使用限制</h2>
+  <p>在遵守本协议的前提下，我们授予你一项<strong>个人的、非独占的、不可转让的、可撤销的</strong>许可，用于在你自己拥有或控制的 Apple 设备上使用本应用。</p>
+  <p>你不得：</p>
+  <ul>
+    <li>对本应用进行反向工程、反编译、拆解或试图获取其源代码，法律另有强制规定的除外；</li>
+    <li>复制、修改、分发、出租、出售、转授权本应用或其任何部分；</li>
+    <li>利用本应用从事任何违法违规活动，或侵害他人合法权益；</li>
+    <li>以任何方式干扰、破坏本应用或相关服务的正常运行。</li>
+  </ul>
+
+  <h2><span class="n">四</span>费用、会员与订阅</h2>
+  <p>本应用的核心手势清理功能<strong>永久免费</strong>。部分高级能力（如「瞬间 Pro」）需要付费解锁。</p>
+  <div class="card">
+    <table>
+      <thead><tr><th>项目</th><th>说明</th></tr></thead>
+      <tbody>
+        <tr><td>免费额度</td><td>免费用户每日可回顾 3 组素材、可使用有限的智能清理次数等；额度每日 00:00（本地时区）重置。</td></tr>
+        <tr><td>瞬间 Pro</td><td>解锁不限次回顾、智能清理不限次、筛选类型切换、自定义每组数量、删除范围自选等能力。</td></tr>
+        <tr><td>支付</td><td>所有购买均通过 <b>Apple App Store 内购</b>完成，由 Apple 处理支付；我们不接触你的支付凭证。</td></tr>
+        <tr><td>自动续订</td><td>订阅类商品（如有）将自动续订，除非你在当前计费周期结束前至少 24 小时取消。</td></tr>
+        <tr><td>取消与退款</td><td>你可在系统「设置 › Apple ID › 订阅」中管理或取消订阅；退款依 Apple 的政策处理。</td></tr>
+        <tr><td>恢复购买</td><td>更换设备或重装后，可通过本应用内「恢复购买」恢复你的 Pro 权益。</td></tr>
+        <tr><td>兑换码</td><td>通过兑换码解锁的权益，其有效性、使用范围以兑换时的说明为准。</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>价格可能因地区、促销或功能更新而调整；调整不影响调整前已生效的订阅周期。</p>
+
+  <h2><span class="n">五</span>你的责任</h2>
+  <ul>
+    <li><span class="hl">请谨慎操作删除。</span>本应用的删除会将素材移入系统「最近删除」，请在保留期内自行确认与恢复；因你或他人操作、以及系统清理机制导致的素材丢失，请以系统相册为准。</li>
+    <li>因本应用在本地处理，我们<strong>无法代你恢复</strong>已从系统「最近删除」中被清除的内容，建议你对重要数据自行做好备份。</li>
+    <li>你应确保对所使用的相册内容拥有合法权利，并自行承担相应的使用责任。</li>
+    <li>你需自行负责设备与账号安全（如设置锁屏密码）。</li>
+  </ul>
+
+  <h2><span class="n">六</span>个人信息与隐私</h2>
+  <p>我们对个人信息的处理规则详见《隐私政策》。该政策为本协议不可分割的组成部分。简言之：本应用在本地处理你的相册内容，不收集、不上传你的照片与视频。</p>
+
+  <h2><span class="n">七</span>知识产权</h2>
+  <p>本应用及其相关的界面设计、图标、代码、文档等知识产权归我们或相应权利人所有。本协议未明示授予你的权利，均由我们保留。你对你自己的相册内容享有全部权利。</p>
+
+  <h2><span class="n">八</span>免责声明与责任限制</h2>
+  <ul>
+    <li>本应用按「现状」提供。在法律允许的最大范围内，我们不对本应用的完整性、准确性或适用性作明示或默示担保。</li>
+    <li>你理解并同意：删除、清理等操作的风险由你自行承担；本应用不对因误删、设备故障、系统行为或不可抗力导致的任何间接、附带或惩罚性损失负责。</li>
+    <li>本应用依赖 Apple 的系统服务（如 Photos、StoreKit、CLGeocoder 等），因这些服务变更、中断或其政策导致的影响，我们不承担责任。</li>
+    <li>若相关法律不允许上述部分限制，则相应限制在法律允许的范围内适用。</li>
+  </ul>
+
+  <h2><span class="n">九</span>服务的变更、中断与终止</h2>
+  <ul>
+    <li>我们可能对本应用进行更新、调整或下线部分功能；重大变更会以适当方式提示。</li>
+    <li>若你违反本协议，我们有权暂停或终止你对本应用的使用许可。</li>
+    <li>你可以随时停止使用并卸载本应用；卸载后本应用保存的本地数据将被系统清除。</li>
+  </ul>
+
+  <h2><span class="n">十</span>争议解决与适用法律</h2>
+  <p>本协议的订立、效力、解释与争议解决，适用<strong>【运营者所在国家/地区】法律</strong>。因本协议或本应用产生的争议，双方应友好协商解决；协商不成的，可向【运营者所在地有管辖权的法院】提起诉讼。</p>
+
+  <h2><span class="n">十一</span>其他</h2>
+  <ul>
+    <li>本协议部分条款如被认定无效，不影响其余条款的效力。</li>
+    <li>我们可能适时修订本协议，修订后的版本将在应用内或版本更新说明中公布，并更新顶部「生效日期」。你继续使用即视为接受修订内容。</li>
+  </ul>
+
+  <h2><span class="n">十二</span>联系我们</h2>
+  <p>如对本协议有任何疑问，请联系：<strong>codersd@163.com</strong>。</p>
+
+  <p class="note">注：本文件依据「瞬间」当前产品设计撰写，正式发布前请由法务审核，并补全【生效日期】【适用法律 / 管辖地】等信息。</p>
+</div>
+
+<footer>© 【年份】 拾见工作室 · 瞬间</footer>
+</body>
+</html>
